@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url(/assets/background-pattern-desktop.svg);
+  background-size: cover; /* o ajusta según tus necesidades */
+  background-repeat: no-repeat;
+  height: 50vh; /* Altura fija de la mitad de la pantalla */
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-image: url(/assets/images/background-pattern-mobile.svg);
+    /* Puedes ajustar el tamaño y otras propiedades del fondo aquí */
+  }
+}
